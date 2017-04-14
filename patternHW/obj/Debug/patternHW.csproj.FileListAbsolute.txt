@@ -1,0 +1,6 @@
+c:\users\alex\documents\visual studio 2015\Projects\patternHW\patternHW\bin\Debug\patternHW.exe.config
+c:\users\alex\documents\visual studio 2015\Projects\patternHW\patternHW\bin\Debug\patternHW.exe
+c:\users\alex\documents\visual studio 2015\Projects\patternHW\patternHW\bin\Debug\patternHW.pdb
+c:\users\alex\documents\visual studio 2015\Projects\patternHW\patternHW\obj\Debug\patternHW.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\patternHW\patternHW\obj\Debug\patternHW.exe
+c:\users\alex\documents\visual studio 2015\Projects\patternHW\patternHW\obj\Debug\patternHW.pdb
