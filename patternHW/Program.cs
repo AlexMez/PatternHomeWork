@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Threading;
 namespace patternHW
 {
     class Program
@@ -11,12 +11,34 @@ namespace patternHW
         
         static void Main(string[] args)
         {
+            // Print Pattern (a)
+            //PrintHashTriangle();
 
-            PrintHashTriangle();
+            while(true)
+            {
+                PrintHashTriangle();
+                PrintUpSideTriangle();
+            }
+            //Console.WriteLine("-----------------------");
 
-            PrintUpSideTriangle();
+            ////Print Pattern (b)
+            //PrintUpSideTriangle();
 
-            Console.WriteLine();
+            //better idea loop these tomake wave
+            
+            //PrintHashTriangle();
+            //PrintUpSideTriangle();
+            //PrintHashTriangle();
+            //PrintUpSideTriangle();
+            //PrintHashTriangle();
+            //PrintUpSideTriangle();
+            //PrintHashTriangle();
+            //PrintUpSideTriangle();
+            //PrintHashTriangle();
+            //PrintUpSideTriangle();
+            //PrintHashTriangle();
+            //PrintUpSideTriangle();
+            // Console.WriteLine();
         }
 
         public static void PrintHashTriangle()
@@ -34,6 +56,7 @@ namespace patternHW
             for (int i = 0; i < Ntimes; i++)
             {
                 Console.Write("#");
+                Thread.Sleep(5);
             }
         }
         
